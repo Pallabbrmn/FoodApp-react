@@ -56,6 +56,12 @@ const FoodCard = styled.div`
     width: 200px;
     height: 200px;
     margin-top: 15px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+
+  .imageContainer img:hover {
+    scale: 1.1;
   }
 
   .imageContainer {
